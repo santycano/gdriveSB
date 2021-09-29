@@ -1,0 +1,14 @@
+security:
+  oauth2:
+    client:
+      clientId: 14175450197-acjf4ruvorr6g0cse8mg7tttaqvuvrd7.apps.googleusercontent.com
+      clientSecret: i0i8c8zKcC-VYtkY-TClzLs9
+      scope: profile, email, https://www.googleapis.com/auth/drive
+      accessTokenUri: https://accounts.google.com/o/oauth2/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://www.googleapis.com/userinfo/v2/me
+
